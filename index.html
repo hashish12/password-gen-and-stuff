@@ -1,0 +1,30 @@
+<div class="app">
+  <h1>Password Generator</h1>
+  <br>
+  <p>This app generates a random password on every click.</p>
+    
+  <p>By default the password length is 8, and it is composed of:
+    <ul>
+      <li>2 uppercase letters</li>
+      <li>2 lowercase letters</li>
+      <li>2 digits</li>
+      <li>2 special characters</li>
+    </ul>
+  </p>
+
+
+<button id="button">generate</button>
+<div class="result">
+  <input type="text" id="password" class="monospace">
+  <button id="clipboard">📋
+    <span id="tooltip">copy to clipboard</span>
+  </button>
+</div>
+
+<br>
+<br>
+<div class="verify">
+  <p>paste result here to verify that password was copied:</p>
+  <input type="text" class="monospace" id="input-verify">
+</div>
+</div>
